@@ -23,7 +23,14 @@ Pod::Spec.new do |spec|
   spec.dependency 'Protobuf', '~> 3.22.1'
   spec.dependency 'RTCCommon', '>= 1.2.1'
   spec.dependency "ESPullToRefresh"
-
+  spec.dependency 'TXIMSDK_Plus_iOS_XCFramework', '<= 8.5.6864'
+  spec.dependency 'ESPullToRefresh'
+  spec.dependency 'TUIGift'
+  spec.dependency 'TUIBarrage'
+  spec.dependency 'TUIAudioEffect'
+  spec.dependency 'TUILiveInfo'
+  spec.dependency 'TUIAudienceList'
+  
   spec.default_subspec = 'Professional'
   
   spec.subspec 'Professional' do |professional|
